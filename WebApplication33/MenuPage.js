@@ -1,15 +1,76 @@
 ﻿//happy hour logic:
 
-//Method calls:
+var happyHourFrom = 14
+var happyHourTo = 18
 
+var happyhour = false;
+var timeNow = new Date().getHours();
+
+
+if (timeNow >= happyHourFrom && timeNow < happyHourTo) {
+    happyhour = true;
+}
+
+var x = 1;
+
+
+/*Reduce price by another 20%:
+Make price background red.*/
+
+var happyprice = document.getElementsByClassName('price');
+
+if (happyhour) {
+
+    for (var i = 0; i < happyprice.length; i++) {
+        //happyprice[i].textContent = happyprice[i].textContent * 0.8;;
+        //happyprice[i].style.color = "red";
+
+        Happyhour(happyprice[i]);
+    }
+
+
+}
+
+    
+//Method calls: 
+
+function Happyhour(X)
+{
+    X.textContent = PriceFix(X.textContent, 0.8);
+    X.style.color = "red";
+
+    
+}
 
 //Adjust price function: (add .toFixed(2) for 2 decimals)
 
+function PriceFix(PriceObject, Discount) {
+    return Number(PriceObject * Discount).toFixed(2);
+    
+}
+
 /*Add pictures function to span:*/
 
+//var img = document.createElement('IMG')
+//img.setAttribute('src', '../Images/Hamburger.png');
+
+var Spanlist = document.getElementsByTagName('span');
+for (var i = 0; i < Spanlist.length; i++) {
+    var img = document.createElement('IMG')
+    img.setAttribute('src', '../Images/Hamburger.png');
+    Spanlist[i].innerText = "";
+    Spanlist[i].appendChild(img);
+    
+}
+
 /*Add todays offer function. 
-Make price background red. 
-Reduce price by another 20%:*/
+
+
+
+
+
+
+
 
 
 

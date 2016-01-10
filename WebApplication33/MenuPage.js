@@ -31,22 +31,21 @@ if (happyhour) {
 
 }
 
-    
+
 //Method calls: 
 
-function Happyhour(X)
-{
+function Happyhour(X) {
     X.textContent = PriceFix(X.textContent, 0.8);
     X.style.color = "red";
 
-    
+
 }
 
 //Adjust price function: (add .toFixed(2) for 2 decimals)
 
 function PriceFix(PriceObject, Discount) {
     return Number(PriceObject * Discount).toFixed(2);
-    
+
 }
 
 /*Add pictures function to span:*/
@@ -60,24 +59,32 @@ for (var i = 0; i < Spanlist.length; i++) {
     img.setAttribute('src', '../Images/Hamburger.png');
     Spanlist[i].innerText = "";
     Spanlist[i].appendChild(img);
-    
+
 }
 
 /*Add todays offer function. 
 
+// Använd dagens namn från js, get elemtntbyid dagens namn, ändra text till grön på den som är "saturday" -- idag
+*/
+
+
+var dayNumber = new Date().getDay();
+var days = ['sunday', 'monday', 'tuseday', 'wednesday', 'thursday', 'friday', 'saturday'];
+var day = days[dayNumber];
+
+var todayName = document.getElementById(day);
+
+dailyOffer(todayName);
+
+function dailyOffer(Color) {
+
+    Color.textContent = PriceFix(Color.textContent, 0.8);
+    Color.style.color = "green";
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
+/*
 /*Stretch exercises: (increasing tuffness for each number!)
 
  1. Automate todays offer to be dependent of the day of the week

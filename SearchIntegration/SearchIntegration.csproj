@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="%24cripts\JavaScript.js" />
+    <Content Include="HtmlPage2.html" />
     <Content Include="packages.config" />
     <Content Include="%24cripts\Burgers.json" />
     <Content Include="%24cripts\Drinks.json" />

@@ -1,0 +1,60 @@
+﻿{
+  "burgers": [
+    {
+      "name": "Best Burger",
+      "dayOfTheWeek": "Monday",
+      "size": 200,
+      "price": 30,
+      "description" :  "That one"
+    },
+
+    {
+      "name": "Slimy Burger",
+      "dayOfTheWeek": "Thuseday",
+      "size": 100,
+      "price": 60,
+      "description" :  "Drink down" 
+    },
+
+    {
+      "name": "Karlsson Burger",
+      "dayOfTheWeek": "Wednesday",
+      "size": 150,
+      "price": 50,
+      "description" :  "Drink down"
+    },
+
+    {
+      "name": "Emil Burger",
+      "dayOfTheWeek": "Thursday",
+      "size": 150,
+      "price": 50,
+      "description" :  "Drink down"
+    },
+
+    {
+      "name": "Linus Burger",
+      "dayOfTheWeek": "Friday",
+      "size": 150,
+      "price": 50,
+      "description" :  "Drink down"
+    },
+
+    {
+      "name": "Super Burger",
+      "dayOfTheWeek": "Saturday",
+      "size": 150,
+      "price": 50,
+      "description" :  "Drink down"
+    },
+
+    {
+      "name": "Originals Burger",
+      "dayOfTheWeek": "Sunday",
+      "size": 150,
+      "price": 50,
+      "description" :  "Drink down"
+    }
+  ]
+
+}

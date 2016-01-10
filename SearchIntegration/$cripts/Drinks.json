@@ -1,0 +1,60 @@
+﻿{
+  "Drinks": [
+    {
+      "name": "Best Drink",
+      "dayOfTheWeek": "Monday",
+      "size": 200,
+      "price": 30,
+      "description" :  "Veru guuud"
+    },
+
+    {
+      "name": "Disgusting Drink",
+      "dayOfTheWeek": "Thuseday",
+      "size": 100,
+      "price": 60,
+      "description" :  "(◠﹏◠✿)"
+    },
+
+    {
+      "name": "Good Drink",
+      "dayOfTheWeek": "Wednesday",
+      "size": 150,
+      "price": 50,
+      "description" :  "(￣▽￣)"
+    },
+
+    {
+      "name": "Emil Drink",
+      "dayOfTheWeek": "Thursday",
+      "size": 150,
+      "price": 50,
+      "description" :  "Kunde varit bättre..."
+    },
+
+    {
+      "name": "Linus Drink",
+      "dayOfTheWeek": "Friday",
+      "size": 150,
+      "price": 50,
+      "description" :  "MeeEEEeeEEhh!?"
+    },
+
+    {
+      "name": "Bottom Drink",
+      "dayOfTheWeek": "Saturday",
+      "size": 150,
+      "price": 50,
+      "description" :  "Drink down"
+    },
+
+    {
+      "name": "Unoriginals Drink",
+      "dayOfTheWeek": "Sunday",
+      "size": 150,
+      "price": 50,
+      "description" :  "Drink for normal people"
+    }
+  ]
+
+}

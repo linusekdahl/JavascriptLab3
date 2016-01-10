@@ -1,0 +1,62 @@
+﻿{
+  "Pizzas": [
+    {
+      "name": "Best Pizza",
+      "dayOfTheWeek": "Monday",
+      "size": 200,
+      "price": 30,
+      "description" :  "The very best."
+
+    },
+
+    {
+      "name": "Slimy Pizza",
+      "dayOfTheWeek": "Thuseday",
+      "size": 100,
+      "price": 60,
+      "description" :  "commonly found on street corners."
+    },
+
+    {
+      "name": "Karlsson Pizza",
+      "dayOfTheWeek": "Wednesday",
+      "size": 150,
+      "price": 50,
+      "description" :  "Emil special"
+    },
+
+    {
+      "name": "Emil Pizza",
+      "dayOfTheWeek": "Thursday",
+      "size": 150,
+      "price": 50,
+      "description" :  "Karlsson special"
+    },
+
+    {
+      "name": "Linus Pizza",
+      "dayOfTheWeek": "Friday",
+      "size": 150,
+      "price": 50,
+      "description" :  "lots of sauce"
+    },
+
+    {
+      "name": "Super Pizza",
+      "dayOfTheWeek": "Saturday",
+      "size": 150,
+      "price": 50,
+      "description" :  "for americans"
+    },
+
+    {
+      "name": "Viking Pizza",
+      "dayOfTheWeek": "Sunday",
+      "size": 150,
+      "price": 50,
+      "description" :  "the pizza for men among men"
+    }
+  ]
+
+}
+

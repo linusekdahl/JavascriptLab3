@@ -1,0 +1,61 @@
+﻿{
+  "Subs": [
+    {
+      "name": "Slimy Sub",
+      "dayOfTheWeek": "Monday",
+      "size": 200,
+      "price": 30,
+      "description" :  "a subway sandwitch drenched in green stuff."
+    },
+
+    {
+      "name": "Long Sub",
+      "dayOfTheWeek": "Thuseday",
+      "size": 100,
+      "price": 60,
+      "description" :  "a long subway sandwitch."
+    },
+
+    {
+      "name": "Short Sub",
+      "dayOfTheWeek": "Wednesday",
+      "size": 150,
+      "price": 50,
+      "description" :  "a short subway sandwitch."
+    },
+
+    {
+      "name": "Filthy Sub",
+      "dayOfTheWeek": "Thursday",
+      "size": 150,
+      "price": 50,
+      "description" :  "a really nasty subway sandwitch."
+    },
+
+    {
+      "name": "Saab Sub",
+      "dayOfTheWeek": "Friday",
+      "size": 150,
+      "price": 50,
+      "description" :  "a subway sandwitch for Saab drivers."
+    },
+
+    {
+      "name": "Honda Sub",
+      "dayOfTheWeek": "Saturday",
+      "size": 150,
+      "price": 50,
+      "description" :  "a subway sandwitch for bikers."
+    },
+
+    {
+      "name": "Mercedes Sub",
+      "dayOfTheWeek": "Sunday",
+      "size": 150,
+      "price": 50,
+      "description" :  "a subway sandwitch for rich people."
+    }
+  ]
+
+}
+

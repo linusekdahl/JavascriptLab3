@@ -156,6 +156,3 @@ Bonus exercises:
  and look at JS String, JS Number, JS Math and JS Date
 
 */
-
-
-var deBugLineOfIntToAllowBreakpoints = 1; /* Debug line. */
